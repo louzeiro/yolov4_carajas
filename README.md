@@ -11,11 +11,9 @@ Para mais informações consulte o artigo original do modelo <a href="https://ar
 
 Foi utilizado o ambiente de desenvolvimento do Google Colabory para implementar os testes e treinamento do detector. Ambos os notebooks estão disponíveis em: 
 
-- **Google Colab** <a href="https://colab.research.google.com/drive/1mlcnodyxmg81n0QY5TQ0dWKFoY4bCRBJ?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg">
+-**Testes Iniciais com o framework** <a href="https://colab.research.google.com/drive/12jDRbUtU_IDoA6lfdxlCMTVej_G_-LGJ?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg">
+  
 - [![colab](https://user-images.githubusercontent.com/4096485/86174097-b56b9000-bb29-11ea-9240-c17f6bacfc34.png)](https://colab.research.google.com/drive/1_GdoqCJWXsChrOiY8sZMr_zbr_fH-0Fg)
-- 
-- [![colab](https://user-images.githubusercontent.com/4096485/86174097-b56b9000-bb29-11ea-9240-c17f6bacfc34.png)]
-(https://colab.research.google.com/drive/12jDRbUtU_IDoA6lfdxlCMTVej_G_-LGJ?usp=sharing)
                                                                                                                         
                                                                                                                       
 
