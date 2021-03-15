@@ -5,7 +5,7 @@ Este repositório representa a pesquisa e implementação da tarefa de detecçã
 Foi utilizada a rede neural YOLOv4 e o framework Darknet, ambos disponíveis em:
 https://github.com/pjreddie/darknet
 
-Para mais informações consulte o artigo original do modelo [YOLO v4] (https://arxiv.org/abs/2004.10934) e a descrição completa do [framework Darknet] (http://pjreddie.com/darknet/)
+Para mais informações consulte o artigo original do modelo <a href="https://arxiv.org/abs/2004.10934" target="_blank">YOLO v4</a> e a descrição completa do framework <a href="http://pjreddie.com/darknet/" target="_blank">Darknet</a>
 
 
 ## Requirements
