@@ -1,49 +1,11 @@
-Este repositório representa a pesquisa e implementação da tarefa de detecção de animais em vias públicas desenvolvida pelo grupo de Visão Computacional, nele consta os links das lições aprendidas e desenvolvidas para atender a demanda. Foram utilizados a rede neural YOLOv4 e o framework Darknet. 
+Este repositório representa a pesquisa e implementação da tarefa de detecção de animais em vias públicas desenvolvida pelo grupo de Visão Computacional, nele consta os links das lições aprendidas e desenvolvidas para atender a demanda de detecção em imagens aéreas.
 
 <img src="output_03.gif" width="500" height="320" /> <img src="output_009.gif" width="500" height="320" />
 
+Foi utilizada a rede neural YOLOv4 e o framework Darknet, ambos disponíveis em:
+https://github.com/pjreddie/darknet
 
-A figura abaixo apresenta o desempenho do modelo YOLO v4 em comparação com outros modelos bastante conhecidos na literatura.
-
-<img src="https://user-images.githubusercontent.com/4096485/101356322-f1f5a180-38a8-11eb-9907-4fe4f188d887.png" width="400">** 
-
-O YOLOv4 busca simplificar o desenvolvimento da detecção de objetos, permitindo o treinamento de um detector por qualquer pessoa que possua uma GPU com VRAM de 8–16 GB, pois o YOLOv4 não requer um minibatch grande, sendo suficiente usar minibatch = 2–8.
-
-O artigo original do modelo YOLO v4 está disponível em: https://arxiv.org/abs/2004.10934
-
-Em seu artigo no medium estão disponíveis mais detalhes: 
- * [Scaled_YOLOv4](https://alexeyab84.medium.com/scaled-yolo-v4-is-the-best-neural-network-for-object-detection-on-ms-coco-dataset-39dfa22fa982?source=friends_link&sk=c8553bfed861b1a7932f739d26f487c8) 
- * [YOLOv4](https://medium.com/@alexeyab84/yolov4-the-most-accurate-real-time-neural-network-on-ms-coco-dataset-73adfd3602fe?source=friends_link&sk=6039748846bbcf1d960c3061542591d7) 
-
-
-- **January 5, 2021**: [v4.0 release](https://github.com/ultralytics/yolov5/releases/tag/v4.0): nn.SiLU() activations, [Weights & Biases](https://wandb.ai/) logging, [PyTorch Hub](https://pytorch.org/hub/ultralytics_yolov5/) integration.
-- **August 13, 2020**: [v3.0 release](https://github.com/ultralytics/yolov5/releases/tag/v3.0): nn.Hardswish() activations, data autodownload, native AMP.
-- **July 23, 2020**: [v2.0 release](https://github.com/ultralytics/yolov5/releases/tag/v2.0): improved model definition, training and mAP.
-- **June 22, 2020**: [PANet](https://arxiv.org/abs/1803.01534) updates: new heads, reduced parameters, improved speed and mAP [364fcfd](https://github.com/ultralytics/yolov5/commit/364fcfd7dba53f46edd4f04c037a039c0a287972).
-- **June 19, 2020**: [FP16](https://pytorch.org/docs/stable/nn.html#torch.nn.Module.half) as new default for smaller checkpoints and faster inference [d4c6674](https://github.com/ultralytics/yolov5/commit/d4c6674c98e19df4c40e33a777610a18d1961145).
-
-
-## Pretrained Checkpoints
-
-| Model | size | AP<sup>val</sup> | AP<sup>test</sup> | AP<sub>50</sub> | Speed<sub>V100</sub> | FPS<sub>V100</sub> || params | GFLOPS |
-|---------- |------ |------ |------ |------ | -------- | ------| ------ |------  |  :------: |
-| [YOLOv5s](https://github.com/ultralytics/yolov5/releases)    |640 |36.8     |36.8     |55.6     |**2.2ms** |**455** ||7.3M   |17.0
-| [YOLOv5m](https://github.com/ultralytics/yolov5/releases)    |640 |44.5     |44.5     |63.1     |2.9ms     |345     ||21.4M  |51.3
-| [YOLOv5l](https://github.com/ultralytics/yolov5/releases)    |640 |48.1     |48.1     |66.4     |3.8ms     |264     ||47.0M  |115.4
-| [YOLOv5x](https://github.com/ultralytics/yolov5/releases)    |640 |**50.1** |**50.1** |**68.7** |6.0ms     |167     ||87.7M  |218.8
-| | | | | | | || |
-| [YOLOv5x](https://github.com/ultralytics/yolov5/releases) + TTA |832 |**51.9** |**51.9** |**69.6** |24.9ms |40      ||87.7M  |1005.3
-
-<!--- 
-| [YOLOv5l6](https://github.com/ultralytics/yolov5/releases)   |640 |49.0     |49.0     |67.4     |4.1ms     |244     ||77.2M  |117.7
-| [YOLOv5l6](https://github.com/ultralytics/yolov5/releases)   |1280 |53.0     |53.0     |70.8     |12.3ms     |81     ||77.2M  |117.7
---->
-
-** AP<sup>test</sup> denotes COCO [test-dev2017](http://cocodataset.org/#upload) server results, all other AP results denote val2017 accuracy.  
-** All AP numbers are for single-model single-scale without ensemble or TTA. **Reproduce mAP** by `python test.py --data coco.yaml --img 640 --conf 0.001 --iou 0.65`  
-** Speed<sub>GPU</sub> averaged over 5000 COCO val2017 images using a GCP [n1-standard-16](https://cloud.google.com/compute/docs/machine-types#n1_standard_machine_types) V100 instance, and includes image preprocessing, FP16 inference, postprocessing and NMS. NMS is 1-2ms/img.  **Reproduce speed** by `python test.py --data coco.yaml --img 640 --conf 0.25 --iou 0.45`  
-** All checkpoints are trained to 300 epochs with default settings and hyperparameters (no autoaugmentation). 
-** Test Time Augmentation ([TTA](https://github.com/ultralytics/yolov5/issues/303)) runs at 3 image sizes. **Reproduce TTA** by `python test.py --data coco.yaml --img 832 --iou 0.65 --augment` 
+Para mais informações consulte o artigo original do modelo [YOLO v4] (https://arxiv.org/abs/2004.10934) e a descrição completa do [framework Darknet] (http://pjreddie.com/darknet/)
 
 
 ## Requirements
