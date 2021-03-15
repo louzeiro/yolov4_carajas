@@ -1,6 +1,11 @@
-Este repositório representa a pesquisa e implementação da tarefa de detecção de animais em vias públicas desenvolvida pelo grupo de Visão Computacional, nele consta os links das lições aprendidas e desenvolvidas para atender a demanda. Foram utilizados a rede neural YOLOv4 e o framework Darknet. A figura abaixo apresenta o desempenho do modelo YOLO v4 em comparação com outros modelos bastante conhecidos na literatura.
+Este repositório representa a pesquisa e implementação da tarefa de detecção de animais em vias públicas desenvolvida pelo grupo de Visão Computacional, nele consta os links das lições aprendidas e desenvolvidas para atender a demanda. Foram utilizados a rede neural YOLOv4 e o framework Darknet. 
 
-<img src="https://user-images.githubusercontent.com/4096485/101356322-f1f5a180-38a8-11eb-9907-4fe4f188d887.png" width="1000">** 
+<img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="40" height="40" />
+
+
+A figura abaixo apresenta o desempenho do modelo YOLO v4 em comparação com outros modelos bastante conhecidos na literatura.
+
+<img src="https://user-images.githubusercontent.com/4096485/101356322-f1f5a180-38a8-11eb-9907-4fe4f188d887.png" width="400">** 
 
 O YOLOv4 busca simplificar o desenvolvimento da detecção de objetos, permitindo o treinamento de um detector por qualquer pessoa que possua uma GPU com VRAM de 8–16 GB, pois o YOLOv4 não requer um minibatch grande, sendo suficiente usar minibatch = 2–8.
 
