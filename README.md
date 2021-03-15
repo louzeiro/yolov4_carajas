@@ -5,41 +5,13 @@ Este repositório representa a pesquisa e implementação da tarefa de detecçã
 Foi utilizada a rede neural YOLOv4 e o framework Darknet, ambos disponíveis em:
 https://github.com/pjreddie/darknet
 
-Para mais informações consulte o artigo original do modelo <a href="https://arxiv.org/abs/2004.10934" target="_blank">YOLO v4</a> e a descrição completa do framework <a href="http://pjreddie.com/darknet/" target="_blank">Darknet</a>
+Para mais informações consulte o artigo original do modelo <a href="https://arxiv.org/abs/2004.10934">YOLO v4</a> e a descrição completa do framework <a href="http://pjreddie.com/darknet/">Darknet</a>
 
+## Notebooks
 
-## Requirements
+Foi utilizado o ambiente de desenvolvimento do Google Colabory para implementar os testes e treinamento do detector. Ambos os notebooks estão disponíveis em: 
 
-Python 3.8 or later with all [requirements.txt](https://github.com/ultralytics/yolov5/blob/master/requirements.txt) dependencies installed, including `torch>=1.7`. To install run:
-```bash
-$ pip install -r requirements.txt
-```
-
-
-## Tutorials
-
-* [Train Custom Data](https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data)&nbsp; 🚀 RECOMMENDED
-* [Weights & Biases Logging](https://github.com/ultralytics/yolov5/issues/1289)&nbsp; 🌟 NEW
-* [Multi-GPU Training](https://github.com/ultralytics/yolov5/issues/475)
-* [PyTorch Hub](https://github.com/ultralytics/yolov5/issues/36)&nbsp; ⭐ NEW
-* [ONNX and TorchScript Export](https://github.com/ultralytics/yolov5/issues/251)
-* [Test-Time Augmentation (TTA)](https://github.com/ultralytics/yolov5/issues/303)
-* [Model Ensembling](https://github.com/ultralytics/yolov5/issues/318)
-* [Model Pruning/Sparsity](https://github.com/ultralytics/yolov5/issues/304)
-* [Hyperparameter Evolution](https://github.com/ultralytics/yolov5/issues/607)
-* [Transfer Learning with Frozen Layers](https://github.com/ultralytics/yolov5/issues/1314)&nbsp; ⭐ NEW
-* [TensorRT Deployment](https://github.com/wang-xinyu/tensorrtx)
-
-
-## Environments
-
-YOLOv5 may be run in any of the following up-to-date verified environments (with all dependencies including [CUDA](https://developer.nvidia.com/cuda)/[CUDNN](https://developer.nvidia.com/cudnn), [Python](https://www.python.org/) and [PyTorch](https://pytorch.org/) preinstalled):
-
-- **Google Colab and Kaggle** notebooks with free GPU: <a href="https://colab.research.google.com/github/ultralytics/yolov5/blob/master/tutorial.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a> <a href="https://www.kaggle.com/ultralytics/yolov5"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open In Kaggle"></a>
-- **Google Cloud** Deep Learning VM. See [GCP Quickstart Guide](https://github.com/ultralytics/yolov5/wiki/GCP-Quickstart)
-- **Amazon** Deep Learning AMI. See [AWS Quickstart Guide](https://github.com/ultralytics/yolov5/wiki/AWS-Quickstart)
-- **Docker Image**. See [Docker Quickstart Guide](https://github.com/ultralytics/yolov5/wiki/Docker-Quickstart) <a href="https://hub.docker.com/r/ultralytics/yolov5"><img src="https://img.shields.io/docker/pulls/ultralytics/yolov5?logo=docker" alt="Docker Pulls"></a>
-
+- **Google Colab** <a href="https://colab.research.google.com/drive/1mlcnodyxmg81n0QY5TQ0dWKFoY4bCRBJ?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" 
 
 ## Inference
 
