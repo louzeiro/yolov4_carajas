@@ -1,7 +1,6 @@
 Este repositório representa a pesquisa e implementação da tarefa de detecção de animais em vias públicas desenvolvida pelo grupo de Visão Computacional, nele consta os links das lições aprendidas e desenvolvidas para atender a demanda. Foram utilizados a rede neural YOLOv4 e o framework Darknet. 
 
-<img src="output_03.gif" width="500" height="320" />
-<img src="output_009.gif" width="500" height="320" />
+<img src="output_03.gif" width="500" height="320" /> <img src="output_009.gif" width="500" height="320" />
 
 
 A figura abaixo apresenta o desempenho do modelo YOLO v4 em comparação com outros modelos bastante conhecidos na literatura.
