@@ -1,4 +1,4 @@
-Este repositório representa a pesquisa e implementação da tarefa de detecção de animais em vias públicas desenvolvida pelo grupo de Visão Computacional, nele consta os links das lições aprendidas e desenvolvidas para atender a demanda de detecção em imagens aéreas.
+Este repositório representa a pesquisa e implementação da tarefa de detecção de animais em vias públicas desenvolvida pelo grupo de Visão Computacional, ele é um complemento do relatório final do projeto. Nele constam os links das lições aprendidas e desenvolvidas para atender a demanda de detecção em imagens aéreas.
 
 <img src="output_03.gif" width="500" height="320" /> <img src="output_009.gif" width="500" height="320" />
 
