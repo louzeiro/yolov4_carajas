@@ -15,3 +15,7 @@ Foi utilizado o ambiente de desenvolvimento do Google Colabory para implementar 
 - **Testes Iniciais com o framework**<a href="https://colab.research.google.com/drive/12jDRbUtU_IDoA6lfdxlCMTVej_G_-LGJ?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg"></a>
 
 - **Treinamento do detector personalizado** <a href="https://colab.research.google.com/drive/1Enpb4hpKqELvWjcft755N7cHXLFyjOCK?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg"></a>
+
+## Tutoriais
+
+* [Criação de dataset personalizado](https://github.com/louzeiro/yolov4_carajas/wiki/Dataset-personalizado)&nbsp;
