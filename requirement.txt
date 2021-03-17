@@ -1,0 +1,8 @@
+!git clone https://github.com/AlexeyAB/darknet
+%cd darknet
+
+!sed -i 's/OPENCV=0/OPENCV=1/' Makefile #habilitando o opencv
+!sed -i 's/GPU=0/GPU=1/' Makefile #habilitando a GPU
+!sed -i 's/CUDNN=0/CUDNN=1/' Makefile #habilitando tipo de GPU utilizado
+
+!make
