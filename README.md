@@ -10,6 +10,9 @@ Este repositório representa a pesquisa e implementação da tarefa de detecçã
 
 Foi utilizada a rede neural YOLOv4 e o framework Darknet. Para mais informações consulte o artigo original do modelo <a href="https://arxiv.org/abs/2004.10934">YOLO v4</a> e a descrição completa do framework <a href="http://pjreddie.com/darknet/">Darknet</a>
 
+## Descrição do dataset
+
+
 ## Notebook
 
 Foi utilizado o ambiente de desenvolvimento do Google Colabory para implementar os testes e treinamento do detector. 
