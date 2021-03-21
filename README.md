@@ -20,8 +20,6 @@ Foi utilizado o ambiente de desenvolvimento do Google Colabory para implementar 
 
 ## Tutoriais
 
-* [Extração de frames](https://github.com/louzeiro/yolov4_carajas/wiki/Extra%C3%A7%C3%A3o-de-frames-em-v%C3%ADdeos);
-
-* <a href="https://github.com/louzeiro/yolov4_carajas/wiki/Extra%C3%A7%C3%A3o-de-frames-em-v%C3%ADdeos" target="_blank">Extração de frames</a>
+* [Extração de frames](https://github.com/louzeiro/yolov4_carajas/wiki/Extra%C3%A7%C3%A3o-de-frames-em-v%C3%ADdeos)
 
 * [Criação de dataset personalizado](https://github.com/louzeiro/yolov4_carajas/wiki/Dataset-personalizado)&nbsp;
