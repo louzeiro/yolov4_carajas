@@ -3,8 +3,10 @@
 ## Rede Neural para detecção de animais 
 
 Este repositório representa a pesquisa e implementação da tarefa de detecção de animais em vias públicas desenvolvida pelo grupo de Visão Computacional, ele é um complemento do relatório final do projeto, onde foram explicados os detalhe da implementação. Neste repositório constam os links das lições aprendidas e desenvolvidas para atender a demanda de detecção em imagens aéreas.
+<p align="center">
+  <img src="midias/output_03.gif" width="500" height="320" /> <img src="midias/output_009.gif" width="500" height="320" />
+</p>
 
-<img src="midias/output_03.gif" width="500" height="320" /> <img src="midias/output_009.gif" width="500" height="320" />
 
 Foi utilizada a rede neural YOLOv4 e o framework Darknet. Para mais informações consulte o artigo original do modelo <a href="https://arxiv.org/abs/2004.10934">YOLO v4</a> e a descrição completa do framework <a href="http://pjreddie.com/darknet/">Darknet</a>
 
