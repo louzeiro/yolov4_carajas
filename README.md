@@ -22,6 +22,9 @@ Total de imagens 3500 e 4613 anotações
 | Animais | 1150 | 1435 |
 | Suino | 650 | 731 |
 
+<p align="center">
+  <img src="midias/animais_rodovia.gif" width="500" height="320" /> <img src="midias/acidente_rodovia.gif" width="500" height="320" />
+</p>
 
 
 ## Notebook
