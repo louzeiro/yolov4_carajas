@@ -13,14 +13,14 @@ Foi utilizada a rede neural YOLOv4 e o framework Darknet. Para mais informaçõe
 ## Descrição do conjunto de treinamento
 As imagens utilizadas para o treinamento e teste do modelo são compostas de duas abordagens: imagens relativamente próximas e imagens aéreas que foram coletadas com drones na região entorno da cidade de Canaã dos Carajas. A intenção é extrair características próximas e distantes das classes: Equino, Bovino, Animais e Suino.
 ### Resumo do Dataset
-Total de imagens 2300 e 3554 anotações
+Total de imagens 3500 e 4613 anotações
 
 | Classes | Imagens  | Anotações  |
 | :-----: | :-: | :-: |
-| Equino | 700 | 932 |
+| Equino | 1000 | 1332 |
 | Bovino | 700 | 1115 |
-| Animais | 550 | 935 |
-| Suino | 350 | 572 |
+| Animais | 1150 | 1435 |
+| Suino | 650 | 731 |
 
 
 
