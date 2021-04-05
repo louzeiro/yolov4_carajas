@@ -22,8 +22,13 @@ Total de imagens 3500 e 4613 anotações
 | Animais | 1150 | 1435 |
 | Suino | 650 | 731 |
 
+## Exemplos de Inferência do Modelo
 <p align="center">
-  <img src="midias/animais_rodovia.gif" width="500" height="320" /> <img src="midias/acidente_rodovia.gif" width="500" height="320" />
+  <img src="midias/animais_rodovia.gif" width="500" height="320" /> <img src="midias/animais_rodovia-2.gif" width="500" height="320" />
+</p>
+
+<p align="center">
+  <img src="midias/bovino_equino_drone.png" width="500" height="320" /> <img src="midias/bovino_drone.png" width="500" height="320" />
 </p>
 
 
