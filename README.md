@@ -46,3 +46,6 @@ Foi utilizado o ambiente de desenvolvimento do Google Colabory para implementar 
 * [Extração de frames](https://github.com/louzeiro/yolov4_carajas/wiki/Extra%C3%A7%C3%A3o-de-frames-em-v%C3%ADdeos)
 
 * [Criação de dataset personalizado](https://github.com/louzeiro/yolov4_carajas/wiki/Dataset-personalizado)&nbsp;
+
+* [Treinamento do modelo personalizado](https://github.com/louzeiro/yolov4_carajas/wiki/Treinamento-do-Modelo)&nbsp;
+
