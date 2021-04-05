@@ -20,7 +20,7 @@ Total de imagens 2300 e 3554 anotações
 | Equino | 700 | 932 |
 | Bovino | 700 | 1115 |
 | Animais | 550 | 935 |
-| Bovino | 350 | 572 |
+| Suino | 350 | 572 |
 
 
 
