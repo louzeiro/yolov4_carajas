@@ -49,3 +49,6 @@ Foi utilizado o ambiente de desenvolvimento do Google Colabory para implementar 
 
 * [Treinamento do modelo personalizado](https://github.com/louzeiro/yolov4_carajas/wiki/Treinamento-do-Modelo)&nbsp;
 
+
+## Documentação
+Maiores detalhes do modelo desenvolvido estão disponíveis na <a href = "https://drive.google.com/file/d/1mXLlYSpeiUmzXN-lz5RZ426tDnMp9yIn/view?usp=sharing">documentação</a>.
